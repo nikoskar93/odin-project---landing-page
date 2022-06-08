@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.hero-header {
+    display:flex;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 15px;  
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-bottom {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.words {
+    color: #f9faf8;
+    margin-top: 20px;
+}
+
+button{
+    width:100px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 6px;
+    margin-top: 20px;
+    border-color: white;
+}
+
+img {
+    width: 500px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    color: #e5e7eb;
+    font-size: 18px;  
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    gap:20px;
+}
+
+.cat-pictures {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:10px;
+      margin-left: 100px;
+      margin-right: 100px;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 25px;
+}
+
+.cat-text{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+    padding: 30px 100px 30px 100px;
+}
+
+.cat1, .cat2, .cat3, .cat4 {
+    width: 300px;
+}
+
+.cat-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-text{
+    display: flex;
+    font-weight: 100 !important;
+    font-style: italic;
+}
+
+.quote-name{
+    display: flex;
+    align-self: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: 50px 150px 50px 150px;
+    padding: 30px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #e9e9e9;
+    font-size: 20px; 
+}
+
+.cta-txt1{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
